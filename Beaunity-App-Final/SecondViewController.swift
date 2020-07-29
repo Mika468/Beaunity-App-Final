@@ -9,10 +9,21 @@
 import UIKit
 
 class SecondViewController: UIViewController {
+    let emojis = ["💆‍♀️":"practice mindfulness", "💅":"self care time", "😌":"relaxed", "🏃‍♀️":"health and wellness", "😊":"good mood"]
+    let inspireQuotes = ["practice mindfulness":["]
 
+    
+    
+    
+    
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+    
     }
 
 
