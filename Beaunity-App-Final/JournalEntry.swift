@@ -8,5 +8,10 @@
 
 import UIKit
 class Journal {
-
+var name = ""
+var important = false
+init(journalName: String, journalInformation: Bool) {
+name = journalName
+important = journalInformation
+}
 }
