@@ -10,11 +10,23 @@ import UIKit
 
 class FirstViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    @IBOutlet weak var quoteText: UILabel!
+    
+
+    @IBAction func homeQuote(_ sender: Any) {
+        quoteText.text = "Breathe. Let go. And remind yourself that this very moment is the only one you know you have for sure-Oprah Winfrey." }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     }
 
 
-}
+
 

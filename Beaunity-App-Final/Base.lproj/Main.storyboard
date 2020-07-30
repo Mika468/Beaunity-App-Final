@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0oP-qf-4lC">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -30,8 +30,23 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vq9-st-jRp">
+                                <rect key="frame" x="98" y="652" width="192" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Practice mindfulness💆‍♀️"/>
+                                <connections>
+                                    <action selector="homeQuote:" destination="9pv-A4-QxB" eventType="touchUpInside" id="flP-Iy-8wj"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DaG-b7-fnw">
+                                <rect key="frame" x="98" y="708" width="216" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image from iOS (5)" translatesAutoresizingMaskIntoConstraints="NO" id="wGi-qa-f3b">
-                                <rect key="frame" x="20" y="551" width="240" height="128"/>
+                                <rect key="frame" x="74" y="445" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -43,10 +58,14 @@
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" image="first" id="acW-dT-cKf"/>
+                    <connections>
+                        <outlet property="homeQuote" destination="Vq9-st-jRp" id="wF6-Ac-qf5"/>
+                        <outlet property="quoteText" destination="DaG-b7-fnw" id="y9B-JN-RtI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="747.82608695652175" y="-390.40178571428572"/>
+            <point key="canvasLocation" x="683" y="-501"/>
         </scene>
         <!--Wellness-->
         <scene sceneID="wg7-f3-ORb">
@@ -66,7 +85,7 @@
                                 <rect key="frame" x="53" y="134" width="341" height="224"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <mutableString key="text">On our page, we aim to inspire boys and girls by helping boost their self confidence when it comes to their skin and the 'flaws' they might associate it with whether it's acne, keratosis, scars, stretch marks, etc. Our community is on the journey to help normalize the things that society's beauty standards might not consider perfect or normal. Our mission is to let young teens and adults see themselves represented in images and narratives of all skin types as a way to demonstrate that you don't have to have perfect skin in order to be beautiful.</mutableString>
+                                <string key="text">On our page, we aim to inspire boys and girls by helping boost their self confidence when it comes to their skin and the 'flaws' they might associate it with whether it's acne, keratosis, scars, stretch marks, etc. Our community is on the journey to help normalize the things that society's beauty standards might not consider perfect or normal. Our mission is to let young teens and adults see themselves represented in images and narratives of all skin types as a way to demonstrate that you don't have to have perfect skin in order to be beautiful.</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -78,11 +97,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image from iOS (3)" translatesAutoresizingMaskIntoConstraints="NO" id="Raa-PV-plt">
+                                <rect key="frame" x="120" y="687" width="136" height="101"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qVu-Xq-BpF">
-                                <rect key="frame" x="105" y="414" width="204" height="68"/>
+                                <rect key="frame" x="89" y="437" width="204" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="Inspirational Quotes!"/>
+                                <state key="normal" title="Good mood😊"/>
                                 <connections>
                                     <action selector="inspireQuotes:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="may-ML-cxO"/>
                                     <action selector="quoteFive:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="Ljn-OM-hCJ"/>
@@ -91,10 +114,6 @@
                                     <action selector="quoteTwo:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="vFN-N0-x3d"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image from iOS (3)" translatesAutoresizingMaskIntoConstraints="NO" id="Raa-PV-plt">
-                                <rect key="frame" x="120" y="687" width="136" height="101"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -175,14 +194,32 @@
                                 <state key="normal" title="😐"/>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image from iOS (7)" translatesAutoresizingMaskIntoConstraints="NO" id="y2u-jB-VS8">
-                                <rect key="frame" x="70" y="338" width="136" height="107"/>
+                                <rect key="frame" x="17" y="305" width="136" height="107"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0dF-H8-hDr">
+                                <rect key="frame" x="209" y="346" width="116" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Self care time💅"/>
+                                <connections>
+                                    <action selector="selfCare:" destination="8NJ-Zz-6gK" eventType="touchUpInside" id="9Fa-QQ-nmJ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FI1-jD-uQc">
+                                <rect key="frame" x="188" y="407" width="132" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="0X6-ws-cwt"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Mental Health" id="0of-gt-eGD"/>
+                    <connections>
+                        <outlet property="labelThree" destination="FI1-jD-uQc" id="fwA-ep-N4e"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DT2-ip-6yi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

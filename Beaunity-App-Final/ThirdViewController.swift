@@ -11,6 +11,11 @@ import UIKit
 class ThirdViewController: UIViewController, UITextViewDelegate {
 
 
+    @IBOutlet weak var labelThree: UILabel!
+    
+    
+    @IBAction func selfCare(_ sender: Any) {
+    labelThree.text = "It’s not selfish to love yourself, take care of yourself, and to make your happiness a priority. It’s necessary-Mandy Hale." }
     
     
     
@@ -18,10 +23,6 @@ class ThirdViewController: UIViewController, UITextViewDelegate {
     
     
     
-    
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
@@ -37,4 +38,4 @@ class ThirdViewController: UIViewController, UITextViewDelegate {
     }
     */
 
-}
+
