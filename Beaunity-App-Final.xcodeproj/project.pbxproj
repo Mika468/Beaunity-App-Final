@@ -16,7 +16,10 @@
 		4D41070424D1124E0036FE28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D41070324D1124E0036FE28 /* Assets.xcassets */; };
 		4D41070724D1124E0036FE28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D41070524D1124E0036FE28 /* LaunchScreen.storyboard */; };
 		4D511E8324D1F96F00112825 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D511E8224D1F96F00112825 /* FourthViewController.swift */; };
+		4D511E8524D2465A00112825 /* Beaunity.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D511E8424D2465A00112825 /* Beaunity.xcassets */; };
 		4D7E59D524D11B82000B6789 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E59D424D11B82000B6789 /* ThirdViewController.swift */; };
+		4D8DD88724D3472B00605835 /* JournalEntryTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8DD88624D3472B00605835 /* JournalEntryTableTableViewController.swift */; };
+		4D8DD88B24D347DA00605835 /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8DD88A24D347DA00605835 /* JournalEntry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +34,10 @@
 		4D41070624D1124E0036FE28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D41070824D1124E0036FE28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D511E8224D1F96F00112825 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		4D511E8424D2465A00112825 /* Beaunity.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Beaunity.xcassets; sourceTree = "<group>"; };
 		4D7E59D424D11B82000B6789 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		4D8DD88624D3472B00605835 /* JournalEntryTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryTableTableViewController.swift; sourceTree = "<group>"; };
+		4D8DD88A24D347DA00605835 /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +81,9 @@
 				4D41070024D1124B0036FE28 /* Beaunity_App_Final.xcdatamodeld */,
 				4D7E59D424D11B82000B6789 /* ThirdViewController.swift */,
 				4D511E8224D1F96F00112825 /* FourthViewController.swift */,
+				4D511E8424D2465A00112825 /* Beaunity.xcassets */,
+				4D8DD88624D3472B00605835 /* JournalEntryTableTableViewController.swift */,
+				4D8DD88A24D347DA00605835 /* JournalEntry.swift */,
 			);
 			path = "Beaunity-App-Final";
 			sourceTree = "<group>";
@@ -139,6 +148,7 @@
 			files = (
 				4D41070724D1124E0036FE28 /* LaunchScreen.storyboard in Resources */,
 				4D41070424D1124E0036FE28 /* Assets.xcassets in Resources */,
+				4D511E8524D2465A00112825 /* Beaunity.xcassets in Resources */,
 				4D4106FF24D1124B0036FE28 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,10 +161,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D4106FC24D1124B0036FE28 /* SecondViewController.swift in Sources */,
+				4D8DD88724D3472B00605835 /* JournalEntryTableTableViewController.swift in Sources */,
 				4D4106FA24D1124B0036FE28 /* FirstViewController.swift in Sources */,
 				4D41070224D1124B0036FE28 /* Beaunity_App_Final.xcdatamodeld in Sources */,
 				4D511E8324D1F96F00112825 /* FourthViewController.swift in Sources */,
 				4D4106F624D1124B0036FE28 /* AppDelegate.swift in Sources */,
+				4D8DD88B24D347DA00605835 /* JournalEntry.swift in Sources */,
 				4D7E59D524D11B82000B6789 /* ThirdViewController.swift in Sources */,
 				4D4106F824D1124B0036FE28 /* SceneDelegate.swift in Sources */,
 			);
